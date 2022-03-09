@@ -1,0 +1,34 @@
+package example01;
+
+import java.util.Scanner;
+
+public class Example_01 {
+	public static int solution(String s) {
+		int answer = 0;
+		
+		answer = Integer.parseInt(s);
+		
+		return answer;
+		
+	}
+	
+	public static void main(String[]args) {
+		
+		Scanner scan = new Scanner(System.in);
+		String Prodo_Card;
+		int Neo_Answer = 0;
+		
+		System.out.print("네오가 프로도에게 건넨 카드 ==> ");
+		
+		Prodo_Card = scan.nextLine();
+		Neo_Answer = solution(Prodo_Card);
+		
+		System.out.println("네오의 답 ==> " + Neo_Answer);
+		
+		
+		
+		
+		
+	}
+
+}
